@@ -15,7 +15,7 @@ function run (generator) {
 
 
 run(function* (done) {
-  var firstFile
+  var firstFile;
   // catch exception
   try {
     var dirFiles = yield fs.readdir('NoNoNoNo', done); // No such dir
@@ -23,6 +23,6 @@ run(function* (done) {
   } catch (e) {
     firstFile = null;
   }
-  
+
   console.log(firstFile);
 });
