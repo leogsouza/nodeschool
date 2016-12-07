@@ -1,0 +1,15 @@
+{
+  "name": "levelmeup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "all-your-base.js",
+  "dependencies": {
+    "level": "^1.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
