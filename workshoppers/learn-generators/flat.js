@@ -1,8 +1,8 @@
 function *flat (arr) {
 
   if(Array.isArray(arr)){
-    for(let i = 0; i < arr.length; i++)
-      yield* flat(arr[i]);
+    for(let item of arr)
+      yield* flat(item);
   } else {
     yield arr;
   }
@@ -10,6 +10,8 @@ function *flat (arr) {
 }
 
 var A = [1, [2, [3, 4], 5], 6];
+var l = flat(A);
+console.log(l.next());
 for (var f of flat(A)) {
     console.log( f );
 }
