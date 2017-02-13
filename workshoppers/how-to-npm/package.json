@@ -5,9 +5,10 @@
   "scripts": {
     "test": "node test.js"
   },
-  "author": "",
+  "author": "Leonardo Souza<leogsouza@gmail.com>",
+  "repository": "https://github.com/leogsouza/tutorial-create-package/",
   "license": "ISC",
-  "description": "",
+  "description": "How to create a npm package",
   "dependencies": {
     "@linclark/pkg": "^1.0.2"
   }
